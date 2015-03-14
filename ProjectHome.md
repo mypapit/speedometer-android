@@ -1,0 +1,1 @@
+A simple unobtrusive Digital Speedometer for Android.
