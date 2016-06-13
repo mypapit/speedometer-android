@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.mypapit.mobile.speedmeter.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_preferences"
+        />
+        
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:title="@string/action_about"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+    
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="500"
+        android:title="@string/action_quit"
+        app:showAsAction="never"/>
+    
+
+</menu>

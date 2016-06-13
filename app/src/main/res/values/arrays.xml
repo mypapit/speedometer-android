@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unitTypes">
+        <item name="1">km/h</item>
+        <item name="2">mph</item>
+        <item name="3">meter/sec</item>
+        <item name="4">knots</item>
+    </string-array>
+    <string-array name="unitTypesValue">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+    </string-array>
+     
+</resources>

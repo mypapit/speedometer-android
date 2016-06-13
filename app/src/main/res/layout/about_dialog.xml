@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="320dp">
+ 
+<ImageView android:id="@+id/ivAbout"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:layout_centerHorizontal="true"/>
+ 
+ <ScrollView android:id="@+id/svAbout"
+ android:layout_width="wrap_content" android:layout_below="@+id/ivAbout"
+ android:layout_height="240dp" 
+ 
+ android:paddingLeft="20dip"
+ android:paddingRight="20dip"
+ 
+ >
+ 
+ <TextView android:text="@+id/tvAbout" android:id="@+id/tvAbout"
+ android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoLink="web|email"/>
+ 
+ </ScrollView>
+ 
+ 
+</RelativeLayout>
