@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 16
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 23
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "net.mypapit.mobile.speedmeter"
         minSdkVersion 9
-        targetSdkVersion 16
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.android.support:appcompat-v7:23.4+'
 }
